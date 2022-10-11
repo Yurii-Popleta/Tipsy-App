@@ -7,23 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84629F8B28F5F76B00A87014 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84629F8A28F5F76B00A87014 /* AppDelegate.swift */; };
-		84629F8D28F5F76B00A87014 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84629F8C28F5F76B00A87014 /* SceneDelegate.swift */; };
-		84629F8F28F5F76B00A87014 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84629F8E28F5F76B00A87014 /* ViewController.swift */; };
-		84629F9228F5F76C00A87014 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84629F9028F5F76B00A87014 /* Main.storyboard */; };
-		84629F9428F5F76D00A87014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84629F9328F5F76D00A87014 /* Assets.xcassets */; };
-		84629F9728F5F76D00A87014 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84629F9528F5F76D00A87014 /* LaunchScreen.storyboard */; };
+		84629FAE28F5F79100A87014 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84629FA228F5F78E00A87014 /* ResultsViewController.swift */; };
+		84629FAF28F5F79100A87014 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84629FA328F5F78E00A87014 /* CalculatorViewController.swift */; };
+		84629FB228F5F79100A87014 /* CalculateBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84629FA728F5F79000A87014 /* CalculateBrain.swift */; };
+		84629FB328F5F79100A87014 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84629FA828F5F79000A87014 /* SceneDelegate.swift */; };
+		84629FB428F5F79100A87014 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84629FAA28F5F79000A87014 /* Main.storyboard */; };
+		84629FB528F5F79100A87014 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84629FAC28F5F79100A87014 /* AppDelegate.swift */; };
+		84629FB728F5F7CA00A87014 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84629FB628F5F7CA00A87014 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84629F8728F5F76B00A87014 /* Tipsy-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tipsy-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84629F8A28F5F76B00A87014 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84629F8C28F5F76B00A87014 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84629F8E28F5F76B00A87014 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84629F9128F5F76B00A87014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84629F9328F5F76D00A87014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84629F9628F5F76D00A87014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84629F9828F5F76D00A87014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84629FA228F5F78E00A87014 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		84629FA328F5F78E00A87014 /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		84629FA428F5F78F00A87014 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84629FA528F5F78F00A87014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84629FA728F5F79000A87014 /* CalculateBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateBrain.swift; sourceTree = "<group>"; };
+		84629FA828F5F79000A87014 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84629FAB28F5F79000A87014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84629FAC28F5F79100A87014 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84629FB628F5F7CA00A87014 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +59,41 @@
 		84629F8928F5F76B00A87014 /* Tipsy-App */ = {
 			isa = PBXGroup;
 			children = (
-				84629F8A28F5F76B00A87014 /* AppDelegate.swift */,
-				84629F8C28F5F76B00A87014 /* SceneDelegate.swift */,
-				84629F8E28F5F76B00A87014 /* ViewController.swift */,
-				84629F9028F5F76B00A87014 /* Main.storyboard */,
-				84629F9328F5F76D00A87014 /* Assets.xcassets */,
-				84629F9528F5F76D00A87014 /* LaunchScreen.storyboard */,
-				84629F9828F5F76D00A87014 /* Info.plist */,
+				84629FAC28F5F79100A87014 /* AppDelegate.swift */,
+				84629FA828F5F79000A87014 /* SceneDelegate.swift */,
+				84629FA628F5F79000A87014 /* Model */,
+				84629FA928F5F79000A87014 /* View */,
+				84629FA128F5F78E00A87014 /* Controller */,
+				84629FA428F5F78F00A87014 /* Info.plist */,
+				84629FA528F5F78F00A87014 /* Assets.xcassets */,
+				84629FB628F5F7CA00A87014 /* Launch Screen.storyboard */,
 			);
 			path = "Tipsy-App";
+			sourceTree = "<group>";
+		};
+		84629FA128F5F78E00A87014 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84629FA228F5F78E00A87014 /* ResultsViewController.swift */,
+				84629FA328F5F78E00A87014 /* CalculatorViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84629FA628F5F79000A87014 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84629FA728F5F79000A87014 /* CalculateBrain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84629FA928F5F79000A87014 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84629FAA28F5F79000A87014 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +128,7 @@
 				TargetAttributes = {
 					84629F8628F5F76B00A87014 = {
 						CreatedOnToolsVersion = 14.0.1;
+						LastSwiftMigration = 1400;
 					};
 				};
 			};
@@ -125,9 +155,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84629F9728F5F76D00A87014 /* LaunchScreen.storyboard in Resources */,
-				84629F9428F5F76D00A87014 /* Assets.xcassets in Resources */,
-				84629F9228F5F76C00A87014 /* Main.storyboard in Resources */,
+				84629FB728F5F7CA00A87014 /* Launch Screen.storyboard in Resources */,
+				84629FB428F5F79100A87014 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,29 +167,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84629F8F28F5F76B00A87014 /* ViewController.swift in Sources */,
-				84629F8B28F5F76B00A87014 /* AppDelegate.swift in Sources */,
-				84629F8D28F5F76B00A87014 /* SceneDelegate.swift in Sources */,
+				84629FB228F5F79100A87014 /* CalculateBrain.swift in Sources */,
+				84629FAF28F5F79100A87014 /* CalculatorViewController.swift in Sources */,
+				84629FAE28F5F79100A87014 /* ResultsViewController.swift in Sources */,
+				84629FB528F5F79100A87014 /* AppDelegate.swift in Sources */,
+				84629FB328F5F79100A87014 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84629F9028F5F76B00A87014 /* Main.storyboard */ = {
+		84629FAA28F5F79000A87014 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				84629F9128F5F76B00A87014 /* Base */,
+				84629FAB28F5F79000A87014 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		84629F9528F5F76D00A87014 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84629F9628F5F76D00A87014 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -285,6 +308,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G29RW88958;
@@ -303,6 +327,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Yurii-Popleta.Tipsy-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -313,6 +338,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G29RW88958;

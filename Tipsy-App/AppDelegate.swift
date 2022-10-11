@@ -1,13 +1,14 @@
 //
 //  AppDelegate.swift
-//  Tipsy-App
+//  Tipsy
 //
-//  Created by Admin on 11/10/2022.
+//  Created by Angela Yu on 09/09/2019.
+//  Copyright © 2019 The App Brewery. All rights reserved.
 //
 
 import UIKit
 
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
